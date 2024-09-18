@@ -15,7 +15,7 @@ const Stocks=(props)=>{
     
              <div className={`${color} rounded-full px-1 text-sm flex items-center justify-center`}>
 
-      % {(Math.round((stock.current_price - stock.previous_price)*100) / stock.previous_price).toFixed(2)}
+       {(Math.round((stock.current_price - stock.previous_price)*100) / stock.previous_price).toFixed(2)}%
     </div>
             <div className="text-2xl text-slate-500" >$ {(stock.current_price/100).toFixed(2)}</div>
           
