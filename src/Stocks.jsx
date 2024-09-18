@@ -7,8 +7,8 @@ const Stocks=(props)=>{
       return(
         <div className="flex justify-between items-center bg-stone-100 w-80 h-24 m-12 p-2 shadow-md">
         <div className="leftSide">
-          <div>{stock.name}</div>
-        <div className="text-xl text-blue-400" >{stock.symbol}</div>
+          <div className="text-slate-600">{stock.name}</div>
+        <div className="text-2xl text-blue-500" >{stock.symbol}</div>
         </div>
     
           <div className="rightSide" >
